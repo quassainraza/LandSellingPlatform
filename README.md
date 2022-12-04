@@ -1,4 +1,4 @@
-# Property Developer
+# Land Selling Platform
 
 This is a hands on solidity development training programme.
 It is a simple React based website. The task here is to implement a private ethereum based blockchain.
@@ -21,11 +21,4 @@ You dont need to be an expert in React to complete this. You only need to modify
 3. Generate the ABI using the command line or from remix (remix is simpler) and paste it into the [landContract.json](/src/contracts/landContract.json).
 4. Implement the missing functions in the [actions](/src/actions/index.js) file.
 
-## Useful links
-1. [Solidity docs](http://solidity.readthedocs.io)
-2. [Web3 API](https://web3js.readthedocs.io/en/1.0/web3.html) 
 
-
-
-
-geth --datadir ./datadir --networkid {your network id} --rpc --rpcapi "db,personal,eth,net,web3,debug" --rpccorsdomain='*' --rpcaddr="localhost" --rpcport 8545 --ws --wsapi "db,personal,eth,net,web3,debug"--wsorigins='*' --wsaddr="localhost" --wsport 8546 console
